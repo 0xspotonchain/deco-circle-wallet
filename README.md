@@ -41,8 +41,9 @@ saved session in `~/.circle-cli` survives, so no re-login is needed.
 - [ ] Daily claim cron created (script ready, see below)
 
 ## Daily testnet claims
-Script: `claim-testnet.sh` — claims USDC + EURC on ARC-TESTNET via the CLI
+Script: `claim-testnet.sh` — claims USDC only on ARC-TESTNET via the CLI
 faucet (20 USDC/request, 1 request per asset/network/2h). Logs to `logs/`.
+(Circle wallet = USDC on Arc only since 2026-11-16; the 60 test EURC claimed earlier stays but is no longer claimed.)
 Exit 2 = testnet session expired, deco must re-login with email OTP.
 Exit 3 = Terms not accepted.
 

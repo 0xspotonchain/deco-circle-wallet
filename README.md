@@ -63,3 +63,7 @@ Confirm amount + method with deco first. Start small.
 - No ARC token airdrop is confirmed by Circle (genesis mint Sep 2026 was explicitly
   "not a commitment to publicly launch ARC"). Testnet activity is positioning only.
 - Never store/log OTP codes beyond immediate use. Never guess deco's email.
+
+## Built with
+
+Built with [Muse](https://muse.ai) — deco's AI agent.
